@@ -900,7 +900,7 @@ body {
 
 .navigation__list {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   list-style: none;
@@ -1016,7 +1016,7 @@ body {
   margin-top: -20vh; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
-      margin-top: -10vh;
+      margin-top: -15vh;
       padding: 20rem; } }
 
 .section-features {
