@@ -83,6 +83,7 @@
         @include respond-(tab-port) {
             width: 100%;
             float: none;
+            margin-top: -2rem;
         }
     }
 }
