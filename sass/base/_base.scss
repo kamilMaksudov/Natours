@@ -32,6 +32,10 @@ body {
     @include respond-(tab-port) {
         padding: 0;
     }
+
+    @media (hover: none) {
+        -webkit-tap-highlight-color: transparent;
+    }
 }
 
 ::selection {

@@ -15,6 +15,7 @@
         background-color: $color-white;
         z-index: 30;
         text-align: center;
+        
         cursor: pointer;
 
         @include respond-(tab-port) {
@@ -28,8 +29,6 @@
             height: 6rem;
             width: 6rem;
         }
-
-        
 
 
     }
@@ -112,6 +111,10 @@
 
         span {
             margin-right: 3.5rem;
+
+            @include respond-(tab-port) {
+                margin-right: 2rem;
+            }
         }
 
 

@@ -11,11 +11,8 @@
 
     @include respond-(tab-port) {
         width: 100%;
-        padding: 4rem;
-        padding-left: 8rem;
-    }
-
-    @include respond-(phone) {
+        padding: 3rem;
+        padding-left: 5rem;
         transform: skewX(0);
     }
 
@@ -37,12 +34,9 @@
         }
 
         @include respond-(tab-port) {
-            width: 12.5rem;
-            height: 12.5rem;
-        }
-
-        @include respond-(phone) {
-            transform: translateX(-3rem) skewX(0);
+            width: 8rem;
+            height: 8rem;
+            transform: translateX(-2rem) skewX(0);
         }
     }
 
@@ -51,12 +45,16 @@
         transform: translateX(-4rem) scale(1.4);
         backface-visibility: hidden;
         transition: all .5s;
+
+        @include respond-(tab-port) {
+            transform: translateX(-2rem) scale(1.4);
+        }
     }
 
     &__text {
         transform: skewX(12deg);
 
-        @include respond-(phone) {
+        @include respond-(tab-port) {
             transform: skewX(0);
         }
     }

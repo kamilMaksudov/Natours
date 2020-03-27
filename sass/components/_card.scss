@@ -86,6 +86,10 @@
         right: 2rem;
         width: 75%;
 
+        @include respond-(phone){
+            width: 50%;
+        }
+
     }
 
     &__heading-span {
