@@ -1016,7 +1016,7 @@ body {
   margin-top: -20vh; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
-      padding: 20rem; } }
+      padding: 20rem 0; } }
 
 .section-features {
   padding: 20rem 0;
