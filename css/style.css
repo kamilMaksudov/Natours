@@ -715,7 +715,8 @@ body {
       height: 95vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 600px), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 600px), only screen and (min-width: 125em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+      height: 95vh; } }
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -899,7 +900,7 @@ body {
 
 .navigation__list {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   list-style: none;
@@ -1015,7 +1016,7 @@ body {
   margin-top: -20vh; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
-      margin-top: -20vh;
+      margin-top: -15vh;
       padding: 20rem 0; } }
 
 .section-features {

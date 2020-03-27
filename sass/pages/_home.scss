@@ -4,9 +4,10 @@
     margin-top: -20vh;
 
     @include respond-(tab-port){
-        margin-top: -20vh;
+        margin-top: -15vh;
         padding: 20rem 0;
     }
+
 }
 
 .section-features {
